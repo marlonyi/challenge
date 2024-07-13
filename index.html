@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="Logo.png" alt="logo de alura" class="logo-alura" />
+    <div class="container">
+      <div class="input-section">
+        <h1>Ingrese el texto aqui</h1>
+        <textarea
+          id="inputText"
+          placeholder="Ingrese el texto que desees encriptar o desencriptar."
+        ></textarea>
+        <p class="info">ℹ Solo letras minusculas y sin acentos</p>
+        <div class="buttons">
+          <button id="encriptarBtn">Encriptar</button>
+          <button id="desencriptarBtn">Desencriptar</button>
+        </div>
+      </div>
+      <div class="output-section">
+        <img
+          src="Muñeco.png"
+          alt="Muñeco sentado con lupa viendo un diamante"
+          class="illustration"
+        />
+        <p id="outputMessage"><strong>Ningun mensaje fue encontrado</strong></p>
+        <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <footer class="footer">
+      Desarrollado por Marlon Yi -- Año de creacion 2024
+    </footer>
+  </body>
+</html>
